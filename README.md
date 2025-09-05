@@ -13,7 +13,16 @@ I have decided to publish it on GitHub for anyone interested in baking a Django 
 from models.py. 
 
 Please feel free to package and publish on PyPi .
+Usage
+py manage.py bake <app>
+py manage.py bake <app> --force
 
 Taofeek Oladiran Folami.
 diranfolami@gmail.com, drfolami@nasniconsultants.com.
 4 September 2005
+
+Another version added, django_baker_gemini. 
+Usage
+py manage.py bake <app>
+py manage.py bake <app> --overwrite
+
